@@ -1,0 +1,71 @@
+.information_in{
+    margin: 0;
+    margin-top: 30px;
+}
+.book_img{
+    /*border: 1px solid red;*/
+}
+.book_name{
+    border-bottom: 1px dashed rgba(0,0,0,0.1);
+    padding: 0;
+    padding-bottom: 20px;
+}
+.book_buy_box{
+    padding: 0;
+    margin-top: 20px;
+}
+.price_box{
+    /*background-color: rgba(0,0,0,0.1);*/
+    padding: 10px 0;
+    padding-left: 20px;
+}
+.price_box p{
+    color: rgba(0,0,0,0.35);
+}
+.price_box p span{
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+}
+.like_list{
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-top: 30px;
+    padding-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.like_list .information_price{
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+}
+.like_list .information_author{
+    color: #8c8c8c;
+    font-size: 10px;
+    margin: 5px 0;
+}
+.like_list h4{
+    color: #8c8c8c;
+    /*font-family: 微软雅黑;*/
+    /*font-weight: 600;*/
+}
+.like_list h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.book_talk{
+    margin-top: 30px;
+}
+.book_talk h4{
+    margin-left: 5%;
+    color: red;
+    font-weight: 600;
+    font-family: 微软雅黑;
+}
+.book_talk p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 40px;
+}

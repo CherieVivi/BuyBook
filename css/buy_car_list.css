@@ -1,0 +1,17 @@
+.list {
+    margin: 0px;
+}
+.background{
+    background-color: rgba(100,40,40,0.02);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid rgba(0,0,0,0.07);
+    margin-top: 30px;
+}
+.list img{
+    height: 100px;
+    width: 100px;
+}
+.list p{
+    word-break: break-all;
+}

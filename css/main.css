@@ -1,0 +1,277 @@
+div{
+    /*border:1px solid black;*/
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.head,.in{
+    padding: 0;
+    margin: 0;
+}
+.head .logo_box,.search_box,.buy_car_box{
+    display: flex;
+    align-items: center;
+}
+.search_box input{
+    outline: none;
+}
+.head .search{
+    height: 45px;
+    border: 2px solid red;
+    padding: 0;
+}
+.head .search_p{
+    color: red;
+    line-height: 41px;
+    font-size: 18px;
+    text-align: center;
+    border-right: 2px solid red;
+}
+.head .search_input_box{
+    /*padding: 0;*/
+}
+.head .search_input_box input{
+    height: 41px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    color: red;
+}
+.head .glyphicon-search{
+    font-size: 20px;
+    color: red;
+    line-height: 41px;
+}
+.head .glyphicon-search:hover{
+    cursor: pointer;
+}
+.head .buy_car{
+    background-color: red;
+    height: 50px;
+    /*text-align: center;*/
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0;
+}
+.head .buy_car span{
+    line-height: 45px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.head .buy_car .glyphicon-shopping-cart{
+    font-size: 25px;
+}
+.book_expect{
+    /*border: 1px solid rgba(255,0,0,0.2);*/
+    padding: 0;
+}
+.book_expect p{
+    font-size: 16px;
+    /*font-weight: 600;*/
+    font-family: 微软雅黑;
+    margin: 5px 20px;
+    overflow:hidden;
+    /*border-bottom: 1px solid rgba(255,0,0,0.1);*/
+}
+.book_expect .top123{
+    /*color: red;*/
+}
+.book_expect p span{
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 40px;
+}
+.book_expect .ten span{
+    margin-right: 28px;
+}
+.one_expect{
+    position: relative;
+    margin: 0 20px;
+    display: none;
+}
+.one_expect img{
+    height: 140px;
+    width: 140px;
+    /*float: left;*/
+}
+.one_expect .one_expect_title{
+    position: absolute;
+    left: 110px;
+    top: 0;
+    width: 66px;
+    overflow:hidden;
+    /*white-space:nowrap;*/
+    /*text-overflow: clip;*/
+}
+.one_expect .one_expect_author{
+    color: #9d9d9d;
+    font-size: 10px;
+    position: absolute;
+    left: 120px;
+    top: 32px;
+}
+.one_expect .one_expect_price{
+    /*color: red;*/
+    /*font-size: 20px;*/
+    font-weight: 600;
+    position: absolute;
+    left: 110px;
+    top: 60px;
+}
+.one_expect .one_expect_oldprice{
+    color: #9d9d9d;
+    font-size: 10px;
+    position: absolute;
+    left: 110px;
+    top: 90px;
+    text-decoration:line-through;
+}
+.one_expect span{
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    font-size: 25px;
+    font-weight: 600;
+    /*color: red;*/
+}
+.line_head{
+    color: red;
+    margin-left: 90px;
+    font-weight: 600;
+}
+.line{
+    height: 1px;
+    border: 1px solid red;
+    width: 92%;
+    margin: 10px auto;
+}
+.in .classification,.book_top10{
+    /*border: 2px solid red;*/
+    padding: 0;
+}
+.in .in_title{
+    height: 45px;
+    background-color: red;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+}
+.in .in_title span{
+    margin-left: 20px;
+}
+.in .classification .classification_content{
+    list-style-type: none;
+    /*border: 1px solid darkblue;*/
+    padding: 0;
+}
+.in .classification .classification_content li{
+    line-height: 35px;
+    /*border: 1px solid darkblue;*/
+    height: 40px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.in .book_top10{
+    border: 1px solid red;
+}
+.in .book_top10 .one_book_top10{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.in .book_top10 .one_book_top10 .media-body{
+    padding-top: 5px;
+}
+.in .book_top10 .one_book_top10 .media-body h4{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.in .book_top10 .one_book_top10 .media-body h4 span{
+    font-size: 10px;
+    font-weight: 200;
+    color: #9d9d9d;
+}
+.in .book_top10 .one_book_top10 .media-body .top_book_price{
+    color: red;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.in .book_top10 .one_book_top10 .media-body .top_book_oldprice{
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #9d9d9d;
+}
+.in .book_top10 .media-object{
+    height: 90px;
+    width: 90px;
+}
+.more_book{
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.more_book .one_book{
+    /*border: 1px solid red;*/
+    padding: 0;
+    position: relative;
+}
+.more_book .one_book .one_book_in{
+    padding: 0;
+    margin-top: 20px;
+}
+.more_book .one_book .one_book_in img{
+    width: 80%;
+    margin-left: 10%;
+}
+.more_book .one_book .one_book_in .one_book_in_talk{
+    background-color: rgba(0,0,0,0.05);
+    width: 92%;
+    margin-top: 20px;
+    font-size: 13px;
+    color: black;
+    margin-left: 4%;
+    padding: 5px 20px;
+    height: 100px;
+}
+.more_book .one_book .one_book_in .one_book_in_talk h4{
+    color: #EE0000;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: -5px;
+    position:absolute;
+    bottom: 0;
+}
+.more_book .one_book .one_book_in .one_book_in_talk h4 span{
+    font-size: 15px;
+}
+.more_book .put_in_car_btn{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+.login_input{
+    margin-top: 20px;
+}
+.register_false{
+    display: none;
+    color: red;
+}
+.register_true{
+    display: none;
+    color: green;
+}
+.register_box{
+    display: none;
+}
